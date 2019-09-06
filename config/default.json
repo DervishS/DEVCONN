@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://Dsk123:dsk123@devconnector-uzo4u.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "MaSecretTokenYoink"
+  "jwtSecret": "MaSecretTokenYoink",
+  "githubClientId": "35d3080760422ccc49ce",
+  "githubSecret": "fa252d1c5297d1422680bb88f97821dedbbcf8b0"
 }
