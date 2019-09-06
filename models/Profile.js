@@ -56,6 +56,37 @@ const ProfileSchema = new mongoose.Schema({
       }
     }
   ],
+  // having some problem, dunno why it doesnt work read propery 'unshift' of undefined
+  education: [
+    {
+      school: {
+        type: String,
+        required: true
+      },
+      degree: {
+        type: String,
+        required: true
+      },
+      fieldofstudy: {
+        type: String,
+        required: true
+      },
+      from: {
+        type: Date,
+        required: true
+      },
+      to: {
+        type: String
+      },
+      current: {
+        type: Boolean,
+        default: false
+      },
+      description: {
+        type: String
+      }
+    }
+  ],
   social: {
     youtube: {
       type: String
